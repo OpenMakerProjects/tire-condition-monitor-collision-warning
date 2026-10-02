@@ -1,0 +1,21 @@
+{
+  "id": 782,
+  "title": "Tire Condition Monitor Collision Warning",
+  "repository_slug": "tire-condition-monitor-collision-warning",
+  "category": "Smart Vehicles",
+  "platform": "Raspberry Pi",
+  "platform_family": "python",
+  "difficulty": "Intermediate",
+  "estimated_hours": 24,
+  "connectivity": "BLE",
+  "components": [
+    "buzzer",
+    "camera",
+    "OLED display"
+  ],
+  "scope": "Build a smart vehicles prototype that uses buzzer, camera, OLED display to warn about close obstacles. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Collision Warning demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
